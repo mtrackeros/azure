@@ -133,7 +133,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           node --version
@@ -287,7 +287,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -385,7 +385,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -437,7 +437,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -475,7 +475,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -525,7 +525,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -570,7 +570,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -623,7 +623,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -668,7 +668,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -713,7 +713,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -758,7 +758,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -812,7 +812,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -857,7 +857,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -909,7 +909,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -943,7 +943,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -987,7 +987,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -1041,7 +1041,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -1068,7 +1068,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)
@@ -1139,7 +1139,7 @@ jobs:
       # Published action contains compiled JS, but we need to compile it here
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
       - name: Compile GH action
         run: |
           (cd common && npm install && npm run build)

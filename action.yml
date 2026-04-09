@@ -70,7 +70,7 @@ outputs:
   runCmdOutput:
     description: The output of the command specified in the runCmd input
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'github-action/run-main.js'
   post: 'github-action/run-post.js'
   post-if: 'success()'
